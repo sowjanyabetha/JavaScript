@@ -16,7 +16,9 @@ let y = 10;
 const z = 15;
 ```
 
-console.log(x + y); // Output: 15
+```
+console.log(x + y);  // Output: 15
+```
 
 `var` is function-scoped, `let` is block-scoped, and `const` is block-scoped and its value cannot be reassigned.
 
@@ -41,6 +43,7 @@ var a = 5;
 var b = 2;
 ```
 
+```
 console.log(a + b); // Addition
 console.log(a - b); // Subtraction
 console.log(a * b); // Multiplication
@@ -54,6 +57,7 @@ console.log(a < b); // Less than
 console.log(a && b); // Logical AND
 console.log(a || b); // Logical OR
 console.log(!a); // Logical NOT
+```
 
 
 # Control Flow
@@ -81,8 +85,10 @@ function greet(name) {
 }
 
 ```
-console.log(greet("John")); // Output: Hello, John!
 
+```
+console.log(greet("John")); // Output: Hello, John!
+```
 
 # Objects
 Objects are collections of key-value pairs. Keys are strings, and values can be of any data type, including other objects or functions.
@@ -99,10 +105,11 @@ var person = {
 };
 ```
 
+```
 console.log(person.name); // Accessing property
 console.log(person["age"]); // Another way to access property
 console.log(person.greet()); // Invoking method
-
+```
 
 # Arrays
 Arrays are ordered collections of values. They can contain elements of any data type and can be dynamically resized.
@@ -111,11 +118,13 @@ Arrays are ordered collections of values. They can contain elements of any data 
 var fruits = ["apple", "banana", "orange"];
 ```
 
+```
 console.log(fruits[0]); // Accessing element
 console.log(fruits.length); // Length of array
 fruits.push("grape"); // Adding element to end
 fruits.pop(); // Removing element from end
 console.log(fruits); // Output: ["apple", "banana", "orange"]
+```
 
 
 This should give you a solid foundation in JavaScript.
